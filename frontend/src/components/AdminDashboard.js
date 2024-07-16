@@ -4,6 +4,7 @@ import axios from 'axios';
 import { useParams } from 'react-router-dom';
 import jsPDF from 'jspdf';
 import html2canvas from 'html2canvas';
+import Button from './Button';
 
 const AdminDashboard = () => {
     const [products, setProducts] = useState([]);
@@ -30,6 +31,20 @@ const AdminDashboard = () => {
     const tdStyle = {
         padding: '10px',
         borderBottom: '1px solid #ddd',
+    };
+
+    const tdStylea = {
+        padding: '10px',
+        borderBottom: '1px solid #ddd',
+        width: '120px'
+    };
+
+    const lineStyle = {
+        backgroundColor: 'grey',
+        height: '1px',
+        width: '94%',
+        marginTop: '22px',
+        marginLeft: '40px',
     };
 
     const tableStyle = {
