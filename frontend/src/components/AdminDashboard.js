@@ -15,7 +15,6 @@ const AdminDashboard = () => {
 
     const pageStyle = {
         background: 'linear-gradient(to right, #20AE8E, #22C984)',
-        height: '100vh',
         display: 'flex',
         flexDirection: 'column',
         color: 'white',
